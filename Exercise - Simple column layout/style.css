@@ -1,0 +1,30 @@
+div {
+  border: 2px solid black;
+  width: 200px;
+  height: 500px;
+  background-color: red;
+  color: rgb(7, 9, 11);
+}
+.Div2 {
+  position: absolute;
+  top: 7px;
+  left: 250px;
+  background-color: black;
+}
+
+.Div3 {
+  position: absolute;
+  top: 7px;
+  left: 500px;
+  background-color: tomato;
+}
+
+.Div4 {
+  position: absolute;
+  top: 7px;
+  left: 750px;
+  background-color: green;
+}
+html {
+  background-color: aqua;
+}

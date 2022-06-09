@@ -1,0 +1,40 @@
+div {
+  border: 1px solid;
+  margin: 0;
+  position: relative;
+  margin-top: 250px;
+  margin-left: 400px;
+}
+.container {
+  width: 800px;
+  height: 250px;
+  position: relative;
+  background-color: aliceblue;
+}
+.logo {
+  width: 200px;
+  height: 80px;
+  margin: 10px;
+  background-color: blueviolet;
+}
+.Topmenu {
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: yellowgreen;
+}
+.menu {
+  width: 550px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  background-color: tomato;
+}
+html {
+  background-color: aqua;
+}
