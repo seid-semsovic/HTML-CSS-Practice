@@ -1,0 +1,30 @@
+.container {
+  width: 80vw;
+  height: 85vh;
+  background-color: beige;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  margin-top: 50px;
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+header {
+  background-color: tomato;
+  grid-area: header;
+}
+main {
+  background-color: blue;
+  grid-area: main;
+}
+aside {
+  background-color: red;
+  grid-area: sidebar;
+}
+footer {
+  background-color: greenyellow;
+  grid-area: footer;
+}

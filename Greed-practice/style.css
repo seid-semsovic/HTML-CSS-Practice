@@ -1,0 +1,30 @@
+.container {
+  width: 80vw;
+  height: 85vh;
+  background-color: beige;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  margin-top: 50px;
+}
+header {
+  background-color: tomato;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+main {
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+aside {
+  background-color: red;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+footer {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
